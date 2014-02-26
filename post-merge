@@ -1,8 +1,0 @@
-#!/bin/sh
-
-echo $GIT_REFLOG_ACTION
-
-if [ "$GIT_REFLOG_ACTION" != pull ]; then
-    branch=`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
-	(afplay ~/lib/FinalFantasyVictory.mp3 &) > /dev/null 2>&1
-fi
