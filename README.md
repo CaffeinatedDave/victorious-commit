@@ -6,7 +6,7 @@ to master! And that calls for some fanfare.
 
 This is a post-commit hook for git that will play the Final Fantasy victory
 theme after a successful merge into master. copy post-commit into .git/hooks,
-or rename it to post-push if you prefer, and then put FinalFantasyVictory.mp3
-into ~/lib, and finally, revel in the glory of victory.
+then put FinalFantasyVictory.mp3 into ~/lib, and finally, revel in the glory
+of victory.
 
 Requires afplay (installed by default on OS X).
