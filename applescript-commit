@@ -1,0 +1,5 @@
+set ovol to (get volume settings)
+set volume output volume 10
+do shell script "afplay ~/lib/FinalFantasyVictory.mp3" 
+set volume output volume (output volume of ovol)
+set volume output muted (output muted of ovol)
