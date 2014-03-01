@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if hash osascript 2>/dev/null; then
-  osascript applescript-commit
+  osascript ~/lib/applescript-commit
 else
   (afplay ~/lib/FinalFantasyVictory.mp3 &) > /dev/null 2>&1
 fi
